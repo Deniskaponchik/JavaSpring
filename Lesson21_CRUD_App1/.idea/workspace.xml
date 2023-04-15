@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Lesson21_CRUD_App1:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e175d9bb-1d80-4f27-b5ca-c58c97b17c7c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/src/main/java/ru/alishev/springcourse/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/src/main/webapp/WEB-INF/applicationContextMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/src/main/webapp/WEB-INF/views/hello_world.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson16_SpringMVCAppJavaConfig/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson16_SpringMVCAppJavaConfig/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson16_SpringMVCAppJavaConfig/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson16_SpringMVCAppJavaConfig/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson16_SpringMVCAppJavaConfig/src/main/java/ru/alishev/springcourse/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson16_SpringMVCAppJavaConfig/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson16_SpringMVCAppJavaConfig/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson16_SpringMVCAppJavaConfig/src/main/webapp/WEB-INF/views/hello_world.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson16_SpringMVCAppJavaConfig/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson17_SpringControllersIntro/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson17_SpringControllersIntro/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson17_SpringControllersIntro/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson17_SpringControllersIntro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson17_SpringControllersIntro/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson17_SpringControllersIntro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson17_SpringControllersIntro/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson17_SpringControllersIntro/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson17_SpringControllersIntro/src/main/java/ru/alishev/springcourse/controllers/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson17_SpringControllersIntro/src/main/java/ru/alishev/springcourse/controllers/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson17_SpringControllersIntro/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson17_SpringControllersIntro/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson17_SpringControllersIntro/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/src/main/java/ru/alishev/springcourse/controllers/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/src/main/java/ru/alishev/springcourse/controllers/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/classes/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/classes/ru/alishev/springcourse/controllers/FirstController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/classes/ru/alishev/springcourse/controllers/SecondController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/classes/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/classes/ru/alishev/springcourse/config/SpringConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/classes/ru/alishev/springcourse/controllers/FirstController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/classes/ru/alishev/springcourse/controllers/SecondController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/lib/spring-aop-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/lib/spring-beans-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/lib/spring-context-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/lib/spring-core-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/lib/spring-expression-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/lib/spring-jcl-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/lib/spring-web-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/lib/spring-webmvc-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/lib/thymeleaf-spring5-3.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson19_SpringRequestParameters/target/spring-mvc-app1/WEB-INF/views/second/exit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/src/main/java/ru/alishev/springcourse/controllers/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/src/main/java/ru/alishev/springcourse/controllers/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/src/main/webapp/WEB-INF/views/first/calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson20_IntroToModel/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/.idea/Lesson15_SpringMVCApp1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/Lesson15_SpringMVCApp1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/Lesson15_SpringMVCApp1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/Lesson15_SpringMVCApp1/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/Lesson15_SpringMVCApp1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson16_SpringMVCAppJavaConfig/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/Lesson15_SpringMVCApp1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson16_SpringMVCAppJavaConfig/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/Lesson15_SpringMVCApp1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/Lesson15_SpringMVCApp1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/Lesson15_SpringMVCApp1/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson15_SpringMVCApp1/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2OGABc57Xji6F0ntBsCvLTdqPdw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/Clouds/Mega/Work/Learning/1.IT/Coding/Java/JavaSpring/Lesson22_CRUD_App2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.29425287",
+    "settings.editor.selected.configurable": "settings.sync",
+    "spring.configuration.checksum": "6ed16b2f59c45caf2948b59341471240",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Clouds\Mega\Work\Learning\1.IT\Coding\Java\JavaSpring" />
+      <recent name="F:\Clouds\Mega\Work\Learning\1.IT\Coding\Java\JavaSpring\Lesson20_IntroToModel\src\main\webapp\WEB-INF\views\first" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.9.0.73">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Lesson21_CRUD_App1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Lesson21_CRUD_App1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="9.0.73" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Lesson21_CRUD_App1:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="9da16d94-0d8f-40b4-b9f6-aee9398214de" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62482" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Lesson21_CRUD_App1:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.1.7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.7" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Lesson20_IntroToModel:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Lesson20_IntroToModel_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="027a0ee5-4bad-4c16-bb1a-1efdf888707b" />
+        <option name="HTTP_PORT" value="8080" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54683" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Lesson17_SpringControllersIntro:war exploded" />
+          <artifact name="Lesson20_IntroToModel:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 10.1.7" />
+      <item itemvalue="Tomcat Server.9.0.73" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e175d9bb-1d80-4f27-b5ca-c58c97b17c7c" name="Changes" comment="" />
+      <created>1681176412903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681176412903</updated>
+      <workItem from="1681176413936" duration="4050000" />
+      <workItem from="1681216150624" duration="1377000" />
+      <workItem from="1681217579442" duration="1174000" />
+      <workItem from="1681219022603" duration="916000" />
+      <workItem from="1681219950147" duration="525000" />
+      <workItem from="1681220484861" duration="5214000" />
+      <workItem from="1681261124469" duration="2292000" />
+      <workItem from="1681265260995" duration="1889000" />
+      <workItem from="1681391788775" duration="563000" />
+      <workItem from="1681392548494" duration="1882000" />
+      <workItem from="1681396315127" duration="5616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
