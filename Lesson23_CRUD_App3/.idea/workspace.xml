@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Lesson22_CRUD_App2:war exploded" />
+      <artifact name="Lesson23_CRUD_App3:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,21 +10,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e175d9bb-1d80-4f27-b5ca-c58c97b17c7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson23_CRUD_App3/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson24_SpringFormsValidation/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson22_CRUD_App2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson22_CRUD_App2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +81,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/Clouds/Mega/Work/Learning/1.IT/Coding/Java/JavaSpring/Lesson23_CRUD_App3",
+    "last_opened_file_path": "F:/Clouds/Mega/Work/Learning/1.IT/Coding/Java/JavaSpring/Lesson24_SpringFormsValidation",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,7 +89,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.29425287",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "8b7f4778d0310290d14187eeda4aedd2",
     "vue.rearranger.settings.migration": "true"
   }
@@ -81,15 +97,17 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Clouds\Mega\Work\Learning\1.IT\Coding\Java\JavaSpring" />
+      <recent name="F:\Clouds\Mega\Work\Learning\1.IT\Coding\Java\JavaSpring\Lesson23_CRUD_App3\src\main\webapp\WEB-INF\views\people" />
       <recent name="F:\Clouds\Mega\Work\Learning\1.IT\Coding\Java\JavaSpring\Lesson20_IntroToModel\src\main\webapp\WEB-INF\views\first" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.9.0.73">
     <configuration name="9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="9.0.73" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/people" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Lesson22_CRUD_App2:war exploded">
+        <artifact name="Lesson23_CRUD_App3:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="" />
           </settings>
@@ -169,7 +187,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Lesson22_CRUD_App2:war exploded" />
+          <artifact name="Lesson23_CRUD_App3:war exploded" />
         </option>
       </method>
     </configuration>
@@ -288,7 +306,8 @@
       <workItem from="1681392548494" duration="1882000" />
       <workItem from="1681396315127" duration="5558000" />
       <workItem from="1681433572983" duration="3598000" />
-      <workItem from="1681472173406" duration="11920000" />
+      <workItem from="1681472173406" duration="11617000" />
+      <workItem from="1681543709008" duration="3451000" />
     </task>
     <servers />
   </component>
