@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>New book</title>
+</head>
+<body>
+
+
+<form th:method="POST" th:action="@{/books}" th:object="${book}">
+  <!--После заполнения формы отправится POST запрос на адрес /books  с заполненными полями объекта модели book -->
+  
+  <label for="title">Enter title: </label>
+  <input type="text" th:field="*{title}" id="title"/>
+  <div style="color:red" th:if="${#fields.hasErrors('title')}" th:errors="*{title}">title error</div>
+  <br/>
+
+  <label for="author">Enter author: </label>
+  <input type="text" th:field="*{author}" id="author"/>
+  <div style="color:red" th:if="${#fields.hasErrors('author')}" th:errors="*{author}">author error</div>
+  <br/>
+  
+  <label for="year">Enter year: </label>
+  <input type="text" th:field="*{year}" id="year"/>
+  <div style="color:red" th:if="${#fields.hasErrors('year')}" th:errors="*{year}">year error</div>
+  <br/>
+
+  <!--
+  <label for="email">Enter email: </label>
+  <input type="text" th:field="*{email}" id="email"/>
+  <div style="color:red" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">email error</div>
+  <br/>
+  
+  <label for="address">Enter address: </label>
+  <input type="text" th:field="*{address}" id="address"/>
+  <div style="color:red" th:if="${#fields.hasErrors('address')}" th:errors="*{address}">address error</div>
+  <br/>
+  -->
+  
+  <input type="submit" value="Create!"/>
+</form>
+
+</body>
+</html>

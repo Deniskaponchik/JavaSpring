@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Update person</title>
+</head>
+<body>
+
+<form th:method="PATCH" th:action="@{/people/{id}(id=${person.getId()})}" th:object="${person}">
+    <!--использовать именно метод Thymeleaf th:method (у HTML5 нет метода PATCH)
+        th:method="PATCH" создаст скрытое поле
+        в этом месте Thymeleaf скрытно прописывает:
+        <input type="hidden" name="_method" value="patch"> = $0 -->
+
+  <label for="name">Введите ФИО: </label>
+    <!-- *{} - Обращаемся к полям класса Person -->
+  <input type="text" th:field="*{name}" id="name"/>
+    <div style="color:red" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name error</div>
+  <br/>
+
+  <label for="age">Введите год рождения: </label>
+  <input type="text" th:field="*{age}" id="age"/>
+    <div style="color:red" th:if="${#fields.hasErrors('age')}" th:errors="*{age}">age error</div>
+  <br/>
+
+  <label for="email">Введите email: </label>
+  <input type="text" th:field="*{email}" id="email"/>
+    <div style="color:red" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">email error</div>
+  <br/>
+
+  <!--
+  <label for="address">Enter address: </label>
+  <input type="text" th:field="*{address}" id="address"/>
+  <div style="color:red" th:if="${#fields.hasErrors('address')}" th:errors="*{address}">address error</div>
+  <br/>
+  -->
+  <input type="submit" value="редактировать!"/>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Show</title>
+</head>
+<body>
+
+
+<p th:text="${person.getName() + ', ' + person.getYear()}">VALUE</p>
+<!--
+тег p (paragraph) просто отображает текст
+<p th:text="${'Email: ' + person.getEmail()}">VALUE</p>
+<p th:text="${person.getId()}">VALUE</p>
+-->
+<hr/>
+
+
+<!-- HABR
+<a href="comments.html"
+   th:href="@{/product/comments(prodId=${prod.id})}"
+   th:if="${not #lists.isEmpty(prod.comments)}">view</a>
+   -->
+<!-- IF CUSTOMER IS ANONYMOUS
+<div th:if="${customer.anonymous}">
+    <div>Welcome, Guest</div>
+</div>  -->
+<!-- ELSE
+<div th:unless="${customer.anonymous}">
+    <div th:text=" 'Hi,' + ${customer.name}">Hi, User</div>
+</div>  -->
+
+<!-- Если книги у пользователя есть -->
+<div th:if="${not #lists.isEmpty(personBooks)}">
+    <div>Книги:</div>
+    <div th:each="book : ${personBooks}">
+        <a th:href="@{/books/{id}(id=${book.getId()})}"
+           th:text="${book.getTitle() +', '+ book.getAuthor()} +', '+ book.getYear()}">
+            user</a>
+        <!--Для каждого book, пришедшего из Листа personBooks (из модели)
+        Вставить ссылку на страницу  /books/{id} где id получить вызовом метода у book
+        Ссылку привязать к тексту
+        <a th:href="@{/books/{${book.getId()}}" th:text="${book.getName()}">user</a>     -->
+    </div>
+</div>
+<!-- Если книг НЕТ -->
+<div th:unless="${customer.anonymous}">
+    <div>Человек пока не взял ни одной книги</div>
+</div>
+
+
+
+
+<hr/>
+<!--тег а может посылать только GET запрос -->
+<a th:href="@{/people/{id}/edit(id=${person.getId()})}">Edit</a>
+<form th:method="DELETE" th:action="@{/people/{id}(id=${person.getId()})}">
+    <input type="submit" value="Delete"/>
+</form>
+
+</body>
+</html>

@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.48">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>1881</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1891</IntrospectionStateNumber>
       <ServerVersion>15.2</ServerVersion>
       <StartupTime>1681559266</StartupTime>
       <TimeZones>true ACDT
@@ -801,7 +801,7 @@ false Zulu
 13183||10|C|G
 13183||-9223372036854775808|U|G
 13183||10|U|G</Grants>
-      <IntrospectionStateNumber>1881</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1891</IntrospectionStateNumber>
       <ObjectId>16398</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4219,7 +4219,7 @@ false Zulu
     <schema id="262" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>1881</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1891</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>518</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
@@ -4259,7 +4259,7 @@ false Zulu
     <sequence id="267" parent="262" name="person_user_id_seq">
       <DasType>integer|0s</DasType>
       <ObjectId>16540</ObjectId>
-      <SequenceIdentity>1(1)</SequenceIdentity>
+      <SequenceIdentity>1(5)</SequenceIdentity>
       <StartValue>1</StartValue>
       <StateNumber>1880</StateNumber>
       <OwnerName>postgres</OwnerName>
@@ -4302,7 +4302,7 @@ false Zulu
     </table>
     <table id="274" parent="262" name="person">
       <ObjectId>16541</ObjectId>
-      <StateNumber>1880</StateNumber>
+      <StateNumber>1890</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
@@ -4678,34 +4678,41 @@ movie_id</ColNames>
       <StateNumber>1880</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="323" parent="274" name="person_pkey">
+    <column id="323" parent="274" name="address">
+      <DasType>varchar|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StateNumber>1890</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="324" parent="274" name="person_pkey">
       <ColNames>user_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16547</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1880</StateNumber>
+      <StateNumber>1888</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="324" parent="274" name="person_email_key">
+    <index id="325" parent="274" name="person_email_key">
       <ColNames>email</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16549</ObjectId>
-      <StateNumber>1880</StateNumber>
+      <StateNumber>1888</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="325" parent="274" name="person_pkey">
+    <key id="326" parent="274" name="person_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16548</ObjectId>
       <Primary>1</Primary>
       <StateNumber>1880</StateNumber>
       <UnderlyingIndexId>16547</UnderlyingIndexId>
     </key>
-    <key id="326" parent="274" name="person_email_key">
+    <key id="327" parent="274" name="person_email_key">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16550</ObjectId>
       <StateNumber>1880</StateNumber>

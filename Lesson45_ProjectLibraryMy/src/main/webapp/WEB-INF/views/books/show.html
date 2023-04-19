@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Show</title>
+</head>
+<body>
+
+
+<p th:text="${book.getTitle() + ', ' + book.getAuthor + ', ' + book.getYear()}">VALUE</p>
+<!--тег p (paragraph) просто отображает текст
+<p th:text="${'Email: ' + person.getEmail()}">VALUE</p>
+<p th:text="${person.getId()}">VALUE</p>  -->
+
+
+
+
+
+
+<form th:method="PATCH" th:action="@{/book/asign}">
+
+    Выберите человека    ВЫПАДАЮЩИЙ СПИСОК     Назначить книгу
+    <!-- if(книга свободна) -->
+    <div th:if="${not #lists.isEmpty(personBooks)}">
+        <label for="person">Select person:</label>
+        <!-- select - выпадающий список -->
+        <select
+                th:object="${person}"
+                th:field="*{id}" id="person">
+            <!--Указываем объект, для которого созд. выпад. список. В контроллере должны передать новый пустой объект класса Person-->
+            <!-- -->
+            <option
+                    th:each="person : ${people}"
+                    th:value="${person.getId()}"
+                    th:text="${person.getName()}">
+                <!--th:value = значение, которое будет отправляться на сервер -->
+                <!--th:text  = текст, который будет отображаться в браузере-->
+            </option>
+        </select>
+
+        <input type="submit" value="Assign as admin"/>
+    </div>
+
+
+
+
+
+    else{
+    Книга сейчас у : ...
+    Освободить книгу
+    }
+
+
+
+</form>
+
+
+
+
+
+
+
+<hr/> <!--Создаёт горизонтальную линию-->
+<!--с помощью тега а можем посылать только GET запрос -->
+<a th:href="@{/books/{id}/edit(id=${book.getId()})}">Edit</a>
+<form th:method="DELETE" th:action="@{/books/{id}(id=${book.getId()})}">
+    <input type="submit" value="Delete"/>
+</form>
+
+</body>
+</html>
