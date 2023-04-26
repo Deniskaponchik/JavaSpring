@@ -7,53 +7,33 @@
 <body>
 
 
-<p th:text="${person.getName() + ', ' + person.getYear()}">VALUE</p>
-<!--
-тег p (paragraph) просто отображает текст
-<p th:text="${'Email: ' + person.getEmail()}">VALUE</p>
-<p th:text="${person.getId()}">VALUE</p>
--->
+<p th:text="${person.getFullName() + ', ' + person.getYearOfBirth()}">VALUE</p>
+<!--тег p (paragraph) просто отображает текст-->
 <hr/>
 
 
-<!-- HABR
-<a href="comments.html"
-   th:href="@{/product/comments(prodId=${prod.id})}"
-   th:if="${not #lists.isEmpty(prod.comments)}">view</a>
-   -->
-<!-- IF CUSTOMER IS ANONYMOUS
-<div th:if="${customer.anonymous}">
-    <div>Welcome, Guest</div>
-</div>  -->
-<!-- ELSE
-<div th:unless="${customer.anonymous}">
-    <div th:text=" 'Hi,' + ${customer.name}">Hi, User</div>
-</div>  -->
 
-<!-- Если книги у пользователя есть -->
-<div th:if="${not #lists.isEmpty(personBooks)}">
-    <div>Книги:</div>
-    <div th:each="book : ${personBooks}">
-        <a th:href="@{/books/{id}(id=${book.getId()})}"
-           th:text="${book.getTitle() +', '+ book.getAuthor()} +', '+ book.getYear()}">
-            user</a>
-        <!--Для каждого book, пришедшего из Листа personBooks (из модели)
-        Вставить ссылку на страницу  /books/{id} где id получить вызовом метода у book
-        Ссылку привязать к тексту
-        <a th:href="@{/books/{${book.getId()}}" th:text="${book.getName()}">user</a>     -->
-    </div>
-</div>
-<!-- Если книг НЕТ -->
-<div th:unless="${customer.anonymous}">
-    <div>Человек пока не взял ни одной книги</div>
+<div th:if="${books.isEmpty()}"> <!--books = List<Book> -->
+    <p>Человек пока не взял ни одной книги</p>
+    <hr/>
 </div>
 
+<div th:if="${!books.isEmpty()}">
+    <hr/>
+    <b>Книги:</b>
+    <br/>
+    <table th:each="book : ${books}">
+        <tr th:text="${book.getTitle() + ', ' + book.getAuthor() + ', ' + book.getYear()}">book</tr>
+    </table>
+    <hr/>
+</div>
 
 
 
 <hr/>
 <!--тег а может посылать только GET запрос -->
 <a th:href="@{/people/{id}/edit(id=${person.getId()})}">Edit</a>
+
 <form th:method="DELETE" th:action="@{/people/{id}(id=${person.getId()})}">
     <input type="submit" value="Delete"/>
 </form>

@@ -17,6 +17,7 @@
             <node kind="database" qname="library">
               <node kind="schema" qname="public" />
             </node>
+            <node kind="database" qname="45_library" />
           </node>
         </introspection-scope>
       </schema-mapping>

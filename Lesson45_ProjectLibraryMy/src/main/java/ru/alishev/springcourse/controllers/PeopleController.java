@@ -12,11 +12,32 @@ import javax.validation.Valid;
 @Controller
 @RequestMapping("/people")
 public class PeopleController {
+    private final PersonDAO personDAO;
+    private final PersonValidator personValidator;
+    @Autowired
+    public PeopleController(PersonDAO personDAO, PersonValidator personValidator) {
+        this.personDAO = personDAO;
+        this.personValidator = personValidator;
+    }
     @GetMapping()
     public String index(Model model) {    //показывает всех людей
         //получим всех людей из DAO (list people), добавим в модель
         model.addAttribute("people", personDAO.index()); //personDAO.index() = List<Person>
         return "people/index";
+    }
+    @GetMapping("/{id}")
+    public String show(@PathVariable("id") int id,
+                       Model model){ //СОЗДАЁМ НОВУЮ модель
+        //получим 1 человека (объект Person) по его id из DAO
+        model.addAttribute("person", personDAO.show(id));  //Person person = personDAO.show(id);
+        model.addAttribute("books", personDAO.getBooksByPersonId(id)); //List<Book>
+        //Даже если идём в БД book, всё равно используем personDAO
+        return "people/show";
+    }
+    @GetMapping("/{id}/edit")
+    public String edit(Model model, @PathVariable("id") int id) {
+        model.addAttribute("person", personDAO.show(id));
+        return "people/edit";
     }
     @GetMapping("/new")
     public String newPerson(@ModelAttribute("person") Person person){
@@ -25,20 +46,6 @@ public class PeopleController {
     //public String newPerson(Model model){
         //model.addAttribute("person", new Person());
         //return "people/new";
-    @GetMapping("/{id}")
-    public String show(@PathVariable("id") int id,
-                       Model model){ //СОЗДАЁМ НОВУЮ модель
-        //получим 1 человека (объект Person) по его id из DAO
-        model.addAttribute("person", personDAO.show(id));  //Person person = personDAO.show(id);
-        model.addAttribute("personBooks", personDAO.showPersonBooks(id)); //List<Book>
-        return "people/show";   // и передадим на отображение в представление
-    }
-    @GetMapping("/{id}/edit")
-    public String edit(Model model, @PathVariable("id") int id) {
-        model.addAttribute("person", personDAO.show(id));
-        return "people/edit";
-    }
-
 
 
 
@@ -75,13 +82,4 @@ public class PeopleController {
 
 
 
-
-
-    private final PersonDAO personDAO;
-    private final PersonValidator personValidator;
-    @Autowired
-    public PeopleController(PersonDAO personDAO, PersonValidator personValidator) {
-        this.personDAO = personDAO;
-        this.personValidator = personValidator;
-    }
 }

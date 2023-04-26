@@ -10,30 +10,31 @@
     <!--использовать именно метод Thymeleaf th:method (у HTML5 нет метода PATCH)
         th:method="PATCH" создаст скрытое поле
         в этом месте Thymeleaf скрытно прописывает:
-        <input type="hidden" name="_method" value="patch"> = $0 -->
+        <input type="hidden" fullName="_method" value="patch"> = $0 -->
 
-  <label for="name">Введите ФИО: </label>
+  <label for="fullName">Введите ФИО: </label>
     <!-- *{} - Обращаемся к полям класса Person -->
-  <input type="text" th:field="*{name}" id="name"/>
-    <div style="color:red" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name error</div>
+  <input type="text" th:field="*{fullName}" id="fullName"/>
+    <div style="color:red" th:if="${#fields.hasErrors('fullName')}" th:errors="*{fullName}">Name error</div>
   <br/>
 
-  <label for="age">Введите год рождения: </label>
-  <input type="text" th:field="*{age}" id="age"/>
-    <div style="color:red" th:if="${#fields.hasErrors('age')}" th:errors="*{age}">age error</div>
+  <label for="yearOfBirth">Введите год рождения: </label>
+  <input type="text" th:field="*{yearOfBirth}" id="yearOfBirth"/>
+    <div style="color:red" th:if="${#fields.hasErrors('yearOfBirth')}" th:errors="*{yearOfBirth}">yearOfBirth error</div>
   <br/>
 
+  <!--
   <label for="email">Введите email: </label>
   <input type="text" th:field="*{email}" id="email"/>
     <div style="color:red" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">email error</div>
   <br/>
 
-  <!--
   <label for="address">Enter address: </label>
   <input type="text" th:field="*{address}" id="address"/>
   <div style="color:red" th:if="${#fields.hasErrors('address')}" th:errors="*{address}">address error</div>
   <br/>
-  -->
+   -->
+
   <input type="submit" value="редактировать!"/>
 </form>
 

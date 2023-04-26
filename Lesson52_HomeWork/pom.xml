@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.example</groupId>
+  <artifactId>HibernateApp</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>HibernateApp</name>
+  <url>http://maven.apache.org</url>
+  <!-- maven-archetype-quickstart -->
+
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <!--https://stackoverflow.com/questions/59601077/intellij-errorjava-error-release-version-5-not-supported
+    Устраняет эту ошибку при сборке проекта:
+    java: error: release version 5 not supported
+    Module HibernateApp SDK 20 does not support source version 1.5.
+    Possible solutions:
+    - Downgrade Project SDK in settings to 1.5 or compatible. Open project settings.
+    - Upgrade language version in Maven build file to 20. Update pom.xml and reload the project.    -->
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+
+
+  <dependencies>
+    <!--https://stackoverflow.com/questions/59601077/intellij-errorjava-error-release-version-5-not-supported
+    Maven sets the default to 1.5 otherwise. You will also need to include the maven-compiler-plugin if you haven't already:-->
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.11.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.2.27</version>
+      <!--<version>42.2.19</version>  Алишев-->
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>5.4.33.Final</version>
+      <!--<version>5.4.28.Final</version>  Алишев-->
+    </dependency>
+  </dependencies>
+
+
+
+</project>

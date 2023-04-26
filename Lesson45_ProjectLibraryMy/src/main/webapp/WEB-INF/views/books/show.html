@@ -8,53 +8,44 @@
 
 
 <p th:text="${book.getTitle() + ', ' + book.getAuthor + ', ' + book.getYear()}">VALUE</p>
-<!--тег p (paragraph) просто отображает текст
-<p th:text="${'Email: ' + person.getEmail()}">VALUE</p>
-<p th:text="${person.getId()}">VALUE</p>  -->
+<!--тег p (paragraph) просто отображает текст -->
 
 
 
 
+<div th:if="${owner}">
+    <span>Книга сейчас у: </span> <span th:text="${owner.getFullName()}">Person Name</span>
+    <!-- span тоже самое, что и тег p, но не совершает перенос строки -->
+    <form th:method="PATCH"
+          th:action="@{/books/{id}/release(id=${book.getId()})}">
+        <input type="submit" value="Освободить книгу"/>
+    </form>
+</div>
 
+<div th:if="${people}">
+    <span>Эта книга свободна. Кому назначить ее?</span> <!-- span тоже самое, что и тег p, но не совершает перенос строки -->
+    <!--выпадающий список ДОЛЖЕН лежать внутри формы -->
+    <form th:method="PATCH"
+          th:action="@{/books/{id}/assign(id=${book.getId()})}">
 
-<form th:method="PATCH" th:action="@{/book/asign}">
-
-    Выберите человека    ВЫПАДАЮЩИЙ СПИСОК     Назначить книгу
-    <!-- if(книга свободна) -->
-    <div th:if="${not #lists.isEmpty(personBooks)}">
-        <label for="person">Select person:</label>
-        <!-- select - выпадающий список -->
-        <select
-                th:object="${person}"
-                th:field="*{id}" id="person">
-            <!--Указываем объект, для которого созд. выпад. список. В контроллере должны передать новый пустой объект класса Person-->
-            <!-- -->
-            <option
-                    th:each="person : ${people}"
+        <label for="person">Выберите человека</label>
+        <!-- label for="person" СВЯЗАН с select id="person" -->
+        <select th:object="${person}"
+                th:field="*{id}"
+                id="person">
+            <!--th:object="${person}" - объект, для которого создаётся выпадающий список (пришёл из модели) -->
+            <!--th:field="*{id}"      - поле объекта, которое выбирается в выпадающем списке -->
+            <!--id="person">          - id выпадающего списка (не связан никак с моделью). Нужен только для label  -->
+            <option th:each="person : ${people}"
                     th:value="${person.getId()}"
-                    th:text="${person.getName()}">
-                <!--th:value = значение, которое будет отправляться на сервер -->
-                <!--th:text  = текст, который будет отображаться в браузере-->
+                    th:text="${person.getFullName()}">
+            <!--th:value = отправится на сервер ТОЛЬКО значение id, который @ModelAttribute увидит, что подходит для объектов класса Person  -->
+            <!--th:text  = текст, который будет отображаться в браузере -->
             </option>
         </select>
-
-        <input type="submit" value="Assign as admin"/>
-    </div>
-
-
-
-
-
-    else{
-    Книга сейчас у : ...
-    Освободить книгу
-    }
-
-
-
-</form>
-
-
+        <input type="submit" value="Назначить книгу"/>
+    </form>
+</div>
 
 
 

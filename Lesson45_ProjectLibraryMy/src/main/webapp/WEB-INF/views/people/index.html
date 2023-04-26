@@ -8,16 +8,16 @@
 
 <div th:each="person : ${people}">
   <a th:href="@{/people/{id}(id=${person.getId()})}"
-     th:text="${person.getName() + ', ' +person.getAge()}">user</a>
+     th:text="${person.getFullName() + ', ' +person.getYearOfBirth()}">user</a>
     <!--Для каждого person, пришедшего из Листа people (из модели)
       Вставить ссылку на страницу  /people/{id} где id получить вызовом метода у person
       Ссылку привязать к тексту
       <a th:href="@{/people/{${person.getId()}}" th:text="${person.getName()}">user</a>     -->
 </div>
 
-<br/><!--Создаёт пустую строку-->
+<br/>
 <hr/> <!--Создаёт горизонтальную линию-->
-<a href="/people/new">Create new person</a>
+<a href="/people/new">Create new person</a> <!--tag a send ONLY GET query-->
 
 </body>
 </html>

@@ -8,15 +8,13 @@
 
 <div th:each="book : ${books}">
   <a th:href="@{/books/{id}(id=${book.getId()})}"
-     th:text="${book.getTitle() + ', ' + book.getAuthor()}+ ', ' +book.getYear()}">
-      user</a>
+     th:text="${book.getTitle() + ', ' + book.getAuthor() + ', ' + book.getYear()}">book</a>
     <!--Для каждого book, пришедшего из Листа books (из модели)
     Вставить ссылку на страницу  /books/{id} где id получить вызовом метода у book
-    Ссылку привязать к тексту
-    <a th:href="@{/books/{${book.getId()}}" th:text="${book.getName()}">user</a>     -->
+    Ссылку привязать к тексту -->
 </div>
 
-<br/><!--Создаёт пустую строку-->
+<br/>
 <hr/> <!--Создаёт горизонтальную линию-->
 <a href="/books/new">Create new book</a>
 

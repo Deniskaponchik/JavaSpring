@@ -12,6 +12,17 @@ import java.util.EnumSet;
 //Заменяет web.xml
 public class MySpringMVCDispatcherServletInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
+    @Override  //этот метод использовать не будем
+    protected Class<?>[] getRootConfigClasses() {
+        return null;
+    }
+
+    @Override
+    protected Class<?>[] getServletConfigClasses() {
+        //подставляем путь до класса Spring конфигурации
+        return new Class[]{SpringConfig.class};
+    }
+
     @Override
     protected String[] getServletMappings() {
         //все запросы http-запросы от пользователя пересылаем на DispatcherServlet
@@ -41,20 +52,5 @@ public class MySpringMVCDispatcherServletInitializer extends AbstractAnnotationC
         FilterRegistration.Dynamic characterEncoding = aContext.addFilter("characterEncoding", characterEncodingFilter);
         characterEncoding.addMappingForUrlPatterns(dispatcherTypes, true, "/*");
     }
-//}
-
-
-    @Override  //этот метод использовать не будем
-    protected Class<?>[] getRootConfigClasses() {
-        return null;
-    }
-
-    @Override
-    protected Class<?>[] getServletConfigClasses() {
-        //подставляем путь до класса Spring конфигурации
-        return new Class[]{SpringConfig.class};
-    }
-
-
 
 }
