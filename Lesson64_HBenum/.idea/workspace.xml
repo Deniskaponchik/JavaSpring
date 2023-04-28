@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Lesson64_HBenum:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e175d9bb-1d80-4f27-b5ca-c58c97b17c7c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lesson57_Lazy/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson57_Lazy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson57_Lazy/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson57_Lazy/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson57_Lazy/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson57_Lazy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson57_Lazy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson57_Lazy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson57_Lazy/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson57_Lazy/src/main/java/org/example/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson57_Lazy/src/main/java/org/example/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson57_Lazy/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson57_Lazy/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/src/main/java/ru/alishev/springcourse/dao/PersonMaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson58_SpringHibernate/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/src/main/java/ru/alishev/springcourse/dao/PersonMaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson59_SpringHibernate/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/src/main/java/ru/alishev/springcourse/dao/PersonMaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/src/main/java/ru/alishev/springcourse/repositories/PeopleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/src/main/java/ru/alishev/springcourse/services/PeopleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson61_SpringDataJPA/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/java/ru/alishev/springcourse/dao/PersonMaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/java/ru/alishev/springcourse/models/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/java/ru/alishev/springcourse/repositories/ItemsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/java/ru/alishev/springcourse/repositories/PeopleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/java/ru/alishev/springcourse/services/ItemsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/java/ru/alishev/springcourse/services/PeopleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson62_SpringDataJPA/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/java/ru/alishev/springcourse/dao/PersonMaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/java/ru/alishev/springcourse/models/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/java/ru/alishev/springcourse/repositories/ItemsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/java/ru/alishev/springcourse/repositories/PeopleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/java/ru/alishev/springcourse/services/ItemsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/java/ru/alishev/springcourse/services/PeopleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson63_HBdate/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/dao/PersonMaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Mood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/repositories/ItemsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/repositories/PeopleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/services/ItemsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/services/PeopleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson27_SpringJdbcTemplate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson27_SpringJdbcTemplate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson27_SpringJdbcTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson27_SpringJdbcTemplate/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OGABc57Xji6F0ntBsCvLTdqPdw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/Clouds/Mega/Work/Learning/1.IT/Coding/Java/JavaSpring/Lesson64_HBenum",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.29425287",
+    "settings.editor.selected.configurable": "settings.sync",
+    "spring.configuration.checksum": "86fbeb6cd20f5d0e6735e307c563aa4d",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Clouds\Mega\Work\Learning\1.IT\Coding\Java\JavaSpring" />
+      <recent name="F:\Clouds\Mega\Work\Learning\1.IT\Coding\Java\JavaSpring\Lesson23_CRUD_App3\src\main\webapp\WEB-INF\views\people" />
+      <recent name="F:\Clouds\Mega\Work\Learning\1.IT\Coding\Java\JavaSpring\Lesson20_IntroToModel\src\main\webapp\WEB-INF\views\first" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.alishev.springcourse.models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.9.0.73">
+    <configuration name="9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="9.0.73" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/people" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Lesson64_HBenum:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Lesson64_HBenum_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="9da16d94-0d8f-40b4-b9f6-aee9398214de" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62482" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Lesson64_HBenum:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.1.7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.7" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Lesson20_IntroToModel:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Lesson20_IntroToModel_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="027a0ee5-4bad-4c16-bb1a-1efdf888707b" />
+        <option name="HTTP_PORT" value="8080" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54683" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Lesson17_SpringControllersIntro:war exploded" />
+          <artifact name="Lesson20_IntroToModel:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 10.1.7" />
+      <item itemvalue="Tomcat Server.9.0.73" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e175d9bb-1d80-4f27-b5ca-c58c97b17c7c" name="Changes" comment="" />
+      <created>1681176412903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681176412903</updated>
+      <workItem from="1681176413936" duration="4050000" />
+      <workItem from="1681216150624" duration="1377000" />
+      <workItem from="1681217579442" duration="1174000" />
+      <workItem from="1681219022603" duration="916000" />
+      <workItem from="1681219950147" duration="525000" />
+      <workItem from="1681220484861" duration="5214000" />
+      <workItem from="1681261124469" duration="2292000" />
+      <workItem from="1681265260995" duration="1889000" />
+      <workItem from="1681391788775" duration="563000" />
+      <workItem from="1681392548494" duration="1882000" />
+      <workItem from="1681396315127" duration="5558000" />
+      <workItem from="1681433572983" duration="3598000" />
+      <workItem from="1681472173406" duration="11617000" />
+      <workItem from="1681543709008" duration="3375000" />
+      <workItem from="1681547163817" duration="1965000" />
+      <workItem from="1681549141911" duration="8612000" />
+      <workItem from="1681559564860" duration="3361000" />
+      <workItem from="1681563469722" duration="3295000" />
+      <workItem from="1681600581884" duration="3529000" />
+      <workItem from="1682513881074" duration="3945000" />
+      <workItem from="1682519873639" duration="3692000" />
+      <workItem from="1682558487240" duration="6880000" />
+      <workItem from="1682599683189" duration="4029000" />
+      <workItem from="1682640298112" duration="1989000" />
+      <workItem from="1682642510377" duration="1949000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
