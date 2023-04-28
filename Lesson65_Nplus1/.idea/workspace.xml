@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Lesson63_HBdate:war exploded" />
+      <artifact name="Lesson64_HibernateEnumeration:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,43 +10,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e175d9bb-1d80-4f27-b5ca-c58c97b17c7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/java/ru/alishev/springcourse/dao/PersonMaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/java/ru/alishev/springcourse/models/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/java/ru/alishev/springcourse/repositories/ItemsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/java/ru/alishev/springcourse/repositories/PeopleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/java/ru/alishev/springcourse/services/ItemsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/java/ru/alishev/springcourse/services/PeopleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/resources/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson64_HibernateEnumeration/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04/storage_v2/_src_/database/44_first_db.TNv9wQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee34f638-3e78-4194-8dff-a6628f808752/storage_v2/_src_/database/58_hibernate.tuktmw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/dao/PersonMaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/repositories/ItemsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/repositories/PeopleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/services/ItemsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/services/PeopleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/dataSources/e5c5c44b-c51c-495e-82be-a33496978c04.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson63_HBdate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson64_HBenum/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson64_HBenum/.idea/dataSources.local.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson64_HBenum/.idea/dataSources.xml" beforeDir="false" />
@@ -124,31 +124,31 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/Clouds/Mega/Work/Learning/1.IT/Coding/Java/JavaSpring/Lesson64_HibernateEnumeration",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.29425287",
-    "settings.editor.selected.configurable": "settings.sync",
-    "spring.configuration.checksum": "2a04184ea1fe5941d7dcdf42a991810a",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Clouds/Mega/Work/Learning/1.IT/Coding/Java/JavaSpring/Lesson64_HibernateEnumeration&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29425287&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;2a04184ea1fe5941d7dcdf42a991810a&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Clouds\Mega\Work\Learning\1.IT\Coding\Java\JavaSpring" />
@@ -165,7 +165,7 @@
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Lesson63_HBdate:war exploded">
+        <artifact name="Lesson65_Nplus1:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="" />
           </settings>
@@ -245,7 +245,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Lesson63_HBdate:war exploded" />
+          <artifact name="Lesson65_Nplus1:war exploded" />
         </option>
       </method>
     </configuration>
@@ -376,7 +376,8 @@
       <workItem from="1682558487240" duration="6880000" />
       <workItem from="1682599683189" duration="4029000" />
       <workItem from="1682640298112" duration="2209000" />
-      <workItem from="1682644695265" duration="426000" />
+      <workItem from="1682644695265" duration="304000" />
+      <workItem from="1682645123748" duration="304000" />
     </task>
     <servers />
   </component>
