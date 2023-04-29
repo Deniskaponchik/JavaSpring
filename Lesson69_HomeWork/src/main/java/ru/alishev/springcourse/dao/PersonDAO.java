@@ -12,9 +12,8 @@ import java.util.Set;
 @Component
 public class PersonDAO {
 
-    //используем в случае JPA
+    //используем в ...
     private final EntityManager entityManager;  //import javax.persistence.EntityManager;
-
     @Autowired
     public PersonDAO(EntityManager entityManager) {
         this.entityManager = entityManager;
