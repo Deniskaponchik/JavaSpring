@@ -10,9 +10,9 @@ import java.util.List;
 import java.util.Set;
 
 @Component
-public class PersonDAO {
+public class PersonDAO {  //Кладут специфические запросы к БД (с помощью SQL). Оставляем, т.к. в больших проектах используется
 
-    //используем в ...
+    /*используем в ...
     private final EntityManager entityManager;  //import javax.persistence.EntityManager;
     @Autowired
     public PersonDAO(EntityManager entityManager) {
@@ -32,7 +32,7 @@ public class PersonDAO {
             System.out.println("Person " + person.getName() + " has: " + person.getItems());
         //HB не будет вызывать запрос каждый раз (person.get), потому что будет понимать, что они уже сделаны
 
-    }
+    } */
 
 
 

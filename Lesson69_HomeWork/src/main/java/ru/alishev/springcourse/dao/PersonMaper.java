@@ -11,8 +11,8 @@ public class PersonMaper implements RowMapper<Person> { //import org.springframe
     public Person mapRow(ResultSet resultSet, int rowNum) throws SQLException {
         Person person = new Person();
         person.setId(resultSet.getInt("id"));
-        person.setName(resultSet.getString("name"));
-        person.setAge(resultSet.getInt("age"));
+        //person.setName(resultSet.getString("name"));
+        //person.setAge(resultSet.getInt("age"));
         //person.setEmail(resultSet.getString("email"));
         return person;
     }

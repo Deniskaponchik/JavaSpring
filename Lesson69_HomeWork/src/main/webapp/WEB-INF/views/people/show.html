@@ -6,11 +6,37 @@
 </head>
 <body>
 
-<!--с помощью Thymeleaf обратиться к значению модели по ключу -->
 <!-- тег p (paragraph) просто отображает текст-->
-<p th:text="${person.getName() + ', ' + person.getAge()}">VALUE</p>
-<p th:text="${'Email: ' + person.getEmail()}">VALUE</p>
-<p th:text="${person.getId()}">VALUE</p>
+<!--<p th:text="${person.getName() +', '+ person.getAge() +', '+ person.getEmail()}">VALUE</p>-->
+<p th:text="${person.getFullName() +', '+ person.getYearOfBirth()}">VALUE</p>
+<hr/>
+
+
+<div th:if="${books.isEmpty()}">
+    <p>Человек пока не взял ни одной книги</p>
+    <hr/>
+</div>
+
+<div th:if="${!books.isEmpty()}">
+    <b>Книги:</b>
+    <br/>
+    <table th:each="book : ${books}">
+        <tr> <!-- СТРОКА таблицы -->
+            <td> <!-- ЯЧЕЙКА -->
+                <span th:text="${book.getTitle() + ', ' + book.getAuthor() + ', ' + book.getYear()}"
+                      th:style="${book.isExpired()} ? 'color: red' : 'color: black'">
+                    book
+                </span>
+            </td>
+        </tr>
+    </table>
+    <hr/>
+</div>
+
+
+<hr/>
+
+
 
 <!--с помощью тега а можем посылать только GET запрос -->
 <a th:href="@{/people/{id}/edit(id=${person.getId()})}">Edit</a>
@@ -18,6 +44,8 @@
 <form th:method="DELETE" th:action="@{/people/{id}(id=${person.getId()})}">
     <input type="submit" value="Delete"/>
 </form>
+
+
 
 </body>
 </html>

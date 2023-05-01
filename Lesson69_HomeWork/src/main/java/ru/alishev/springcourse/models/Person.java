@@ -1,19 +1,6 @@
 package ru.alishev.springcourse.models;
-/* hibernate НЕ РАБОТАЕТ
-import org.hibernate.validator.constraints.NotEmpty;
-import org.hibernate.validator.constraints.Size;
-import org.hibernate.validator.constraints.Min;
-import org.hibernate.validator.constraints.Email;
- */
-/* jakarta НЕ РАБОТАЕТ
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.Size;
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.Email;
-*/
 //Алишев. Требуется ИМЕННО 6 версия hibernate.validator
 import org.springframework.format.annotation.DateTimeFormat;
-
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Min;
@@ -32,28 +19,29 @@ public class Person {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name="name")
+    @Column(name="full_name")
     @NotEmpty(message = "Name should not be empty")
     @Size(min = 2, max = 30, message = "Name should be between 2 and 30 chars")
-    private String name;
+    private String fullName;
+
+    @Min(value = 1900, message = "Год рождения должен быть больше, чем 1900")
+    @Column(name = "year_of_birth")
+    private int yearOfBirth;
 
 
-    @Column(name="age")
-    @Min(value = 0, message = "Age should be greater than zero")
-        private int age;
-
+    /* в 69 проекте не понадобились
     @Column(name="email")
     @NotEmpty(message = "Name should not be empty")
     @Email(message = "email should be valid")
     private String email;
 
     @Column(name="date_of_birth")
-    @Temporal(TemporalType.DATE)               //import javax.persistence.*;
+    @Temporal(TemporalType.DATE)               //import javax.persistence.*;   //DATE без миллисекунд(день, месяц, год)
     @DateTimeFormat(pattern = "dd/MM/yyyy")    //сможем парсить строку даты из формы. Если дата будет не в валидном формате, то возникнет НЕ user friendly ошибка
     private Date dateOfBirth;                  //import java.util.Date;
 
     @Column(name="created_at")
-    @Temporal(TemporalType.TIMESTAMP)
+    @Temporal(TemporalType.TIMESTAMP)          //import javax.persistence.*;   //TIMESTAMP = с миллисекундами
     private Date createdAt; //дата будет ложиться НЕ в контроллере, а в Сервисе (бизнес-логика)
 
     @Enumerated(EnumType.STRING)
@@ -62,66 +50,48 @@ public class Person {
 
     //@Transient    //НЕ ХРАНИМ В БД. Hibernate его не будет замечать
     //private int perimeter   //Удобно хранить вычисление на основании других полей. Проще и быстрее вычислить внутри JAVA
+    */
+
+        @OneToMany(mappedBy = "owner")
+        private List<Book> books;
+
+        public Person() {}   // Конструктор по умолчанию нужен для Spring
+        public Person(String fullName, int yearOfBirth) {
+            this.fullName = fullName;
+            this.yearOfBirth = yearOfBirth;
+        }
+
+        public int getId() {
+            return id;
+        }
+        public void setId(int id) {
+            this.id = id;
+        }
+        public String getFullName() {        return fullName;    }
+        public void setFullName(String fullName) {        this.fullName = fullName;    }
+        public int getYearOfBirth() {        return yearOfBirth;    }
+        public void setYearOfBirth(int yearOfBirth) {
+            this.yearOfBirth = yearOfBirth;
+        }
+        public List<Book> getBooks() {        return books;    }
+        public void setBooks(List<Book> books) {        this.books = books;    }
+        //public List<Item> getItems() {        return items;    }
+        //public void setItems(List<Item> items) {        this.items = items;    }
 
 
-    @OneToMany(mappedBy = "owner")
-    private List<Item> items;
 
-    public Person() {    }
-
-    public Person(String name, int age, String email) {
-        //this.id = id;
-        this.name = name;
-        this.age = age;
-        this.email = email;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getEmail() {        return email;    }
-    public void setEmail(String email) {        this.email = email;    }
-
-    public List<Item> getItems() {        return items;    }
-
-    public void setItems(List<Item> items) {
-        this.items = items;
-    }
-
-    public Date getDateOfBirth() {        return dateOfBirth;    }
-
-    public void setDateOfBirth(Date dateOfBirth) {        this.dateOfBirth = dateOfBirth;    }
-
-    public Date getCreatedAt() {        return createdAt;    }
-
-    public void setCreatedAt(Date createdAt) {        this.createdAt = createdAt;    }
-
-    public Mood getMood() {        return mood;    }
-    public void setMood(Mood mood) {        this.mood = mood;    }
-
+        /* в 69 проекте не понадобились
+        public String getEmail() {        return email;    }
+        public void setEmail(String email) {        this.email = email;    }
+        public Date getDateOfBirth() {        return dateOfBirth;    }
+        public void setDateOfBirth(Date dateOfBirth) {        this.dateOfBirth = dateOfBirth;    }
+        public Date getCreatedAt() {        return createdAt;    }
+        public void setCreatedAt(Date createdAt) {        this.createdAt = createdAt;    }
+        public Mood getMood() {        return mood;    }
+        public void setMood(Mood mood) {        this.mood = mood;    }
+         */
     @Override
-    public String toString() {
+    public String toString() { /*
         return "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
@@ -129,10 +99,11 @@ public class Person {
                 ", email='" + email + '\'' +
                 ", dateOfBirth=" + dateOfBirth +
                 ", createdAt=" + createdAt +
-                '}';
+                '}';*/
+        return getFullName();
     }
 
-    //Java 7+. Создаём для работы SET в PersonDAO
+    /*Java 7+. Создаём для работы SET в PersonDAO
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -143,9 +114,11 @@ public class Person {
     @Override
     public int hashCode() {
         return Objects.hash(id, name, age, email, dateOfBirth, createdAt, mood);
-    }
+    }  */
 
-    /* Default IntelijIdea
+
+
+    /* Default IntelijIdea equals & hashCode
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

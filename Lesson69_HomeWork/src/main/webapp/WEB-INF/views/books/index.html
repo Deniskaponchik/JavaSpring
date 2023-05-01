@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>All books</title>
+</head>
+<body>
+
+<div th:each="book : ${books}">
+  <a th:href="@{/books/{id}(id=${book.getId()})}"
+     th:text="${book.getTitle() + ', ' + book.getAuthor() + ', ' + book.getYear()}">book</a>
+    <!--Для каждого book, пришедшего из Листа books (из модели)
+    Вставить ссылку на страницу  /books/{id} где id получить вызовом метода у book
+    Ссылку привязать к тексту -->
+</div>
+
+<br/>
+<hr/> <!--Создаёт горизонтальную линию-->
+<a href="/books/new">Create new book</a>
+
+</body>
+</html>

@@ -1,6 +1,5 @@
 package ru.alishev.springcourse.models;
 import org.springframework.format.annotation.DateTimeFormat;
-
 import javax.persistence.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
@@ -30,18 +29,18 @@ public class Book {
     @Min(value = 0, message = "Year should be greater than zero")
     private int year;
 
-    @Column(name="date_of_taking")
-    @Temporal(TemporalType.DATE)               //import javax.persistence.*;
-    @DateTimeFormat(pattern = "dd/MM/yyyy")    //сможем парсить строку даты из формы. Если дата будет не в валидном формате, то возникнет НЕ user friendly ошибка
-    private Date dateOfTaking;                 //import java.util.Date;
+    @Column(name="taken_at")
+    @Temporal(TemporalType.TIMESTAMP)      //import javax.persistence.*;   //TIMESTAMP = с миллисекундами
+    private Date takenAt;                  //import java.util.Date;
 
-    @Transient                     //НЕ ХРАНИМ В БД. Hibernate его не будет замечать
-    private boolean expiration;   //Удобно хранить вычисление на основании других полей. Проще и быстрее вычислить внутри JAVA
+    @Transient                //НЕ ХРАНИМ В БД. Hibernate его не будет замечать
+    private boolean expired;  //Удобно хранить вычисление на основании других полей. Проще и быстрее вычислить внутри JAVA. по умолч. FALSE
 
     @ManyToOne
     @JoinColumn(name="person_id", referencedColumnName = "id")
     private Person owner;
-    public Book() {    }
+
+    public Book() {}
     public Book(String title, String author, int year) {
         this.title = title;
         this.author = author;
@@ -67,21 +66,28 @@ public class Book {
     public Person getOwner() {        return owner;    }
     public void setOwner(Person owner) {        this.owner = owner;    }
 
+    public Date getTakenAt() {        return takenAt;    }
+    public void setTakenAt(Date takenAt) {        this.takenAt = takenAt;    }
+
+    public boolean isExpired() {        return expired;    }
+    public void setExpired(boolean expiration) {        this.expired = expired;    }
+
     @Override
     public String toString() {
-        return "Item{" +
+        return "Book{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", owner=" + owner +
                 '}';
     }
 
+    /* Реализовываю в Сервисе
     public boolean getExpiration(Date dateOfTaking){
         Date today = new Date();
         //int diffInDays = (int)( (newerDate.getTime() - olderDate.getTime()) / (1000 * 60 * 60 * 24) );
         int diffInDays = (int)( (today.getTime() - dateOfTaking.getTime()) / (1000 * 60 * 60 * 24) );
         return diffInDays > 10;
-    }
+    }*/
 }
 
 

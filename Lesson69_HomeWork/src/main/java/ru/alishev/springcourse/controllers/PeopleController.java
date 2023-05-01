@@ -6,6 +6,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import ru.alishev.springcourse.dao.PersonDAO;
 import ru.alishev.springcourse.models.Person;
+import ru.alishev.springcourse.services.BooksService;
 import ru.alishev.springcourse.services.ItemsService;
 import ru.alishev.springcourse.services.PeopleService;
 import javax.validation.Valid;
@@ -15,42 +16,41 @@ import javax.validation.Valid;
 @RequestMapping("/people")
 public class PeopleController {
 
-    private final PersonDAO personDAO; //будет внедрён с помощью спринга, т.к. помечен @Component
-    private final PeopleService peopleService;
-    private final ItemsService itemService;
+    //private final PersonDAO personDAO; //будет внедрён с помощью спринга, т.к. помечен @Component
+    private final PeopleService peopleService;  //JPA
+    private final BooksService booksService;  //в проекте не используется
 
     //public PeopleController() {    }
     @Autowired
-    public PeopleController(PersonDAO personDAO, PeopleService peopleService, ItemsService itemService) {
-        this.personDAO = personDAO;
+    public PeopleController(PeopleService peopleService, BooksService booksService) {
+        //this.personDAO = personDAO;
         this.peopleService = peopleService;
-        this.itemService = itemService;
+        this.booksService = booksService;
     }
 
 
-    @GetMapping()  //попадаем в этот метод по запросу GET /people
-    public String index(Model model) {    //показывает всех людей
+    @GetMapping()
+    public String index(Model model) {
         //List<Person> people = personDAO.index();
         //model.addAttribute("people", personDAO.index()); //получим всех людей из DAO (list people), добавим в модель
 
-        //model.addAttribute("people", peopleService.findAll());
-        personDAO.testNPlus1();
+        model.addAttribute("people", peopleService.findAll());
+        //personDAO.testNPlus1();
 
-        //itemService.findByItemName("Airpods");  //нам эти методы нужны, чтобы дебагер до них дошёл
+        //itemService.findByItemName("Airpods");                   //нам эти методы нужны, чтобы дебагер до них дошёл
         //itemService.findByOwner(peopleService.findAll().get(0)); //использовалось в уроке с дебаггером
-        //peopleService.test();  //использовалось в уроке с дебаггером
+        //peopleService.test();                                    //использовалось в уроке с дебаггером
 
         return "people/index";  //передадим на отображение в Представление.
         //вернём ту страницу/тот шаблон, который будет отображать список из людей
     }
-    @GetMapping("/{id}") //можно сюда поместить любое число и оно будет принято, как аргумент метод
-    public String show(@PathVariable("id") int id, Model model){    //показывает конкретного человека
-        //получим 1 человека (объект Person) по его id из DAO
-        //Person person = personDAO.show(id);
-        //model.addAttribute("person", personDAO.show(id));
-        model.addAttribute("person", peopleService.findOne(id));
-        // и передадим на отображение в представление
-        return "people/show";
+    @GetMapping("/{id}")
+    public String show(@PathVariable("id") int id,
+                       Model model){    //показывает конкретного человека
+        //model.addAttribute("person", personDAO.show(id));                   //Person person = personDAO.show(id)
+        model.addAttribute("person", peopleService.findOne(id));   //Person person = peopleService.findOne(id)
+        model.addAttribute("books", peopleService.getBooksByPersonId(id));
+        return "people/show";  // и передадим на отображение в представление
     }
 
     @GetMapping("/{id}/edit")
@@ -68,7 +68,7 @@ public class PeopleController {
     }
 
 
-    @PostMapping()     //попадаем по запросу POST /people
+    @PostMapping()  //Добавление нового человека с формы new
     public String create(@ModelAttribute("person") @Valid Person person,
                          //@ModelAttribute = Создание нового человека+Добавление значений сеттерами+Добавление созданного объекта в модель
                          BindingResult bindingResult //ДОЛЖЕН идти после валидируемого объекта. Здесь будут лежать ошибки валидации

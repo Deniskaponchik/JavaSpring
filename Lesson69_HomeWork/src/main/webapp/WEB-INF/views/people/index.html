@@ -7,9 +7,11 @@
 <body>
 
 <div th:each="person : ${people}">
-  <a th:href="@{/people/{id}(id=${person.getId()})}"
-     th:text="${person.getName() + ', ' +person.getAge()}">user</a>
-  <!--     <a th:href="@{/people/{${person.getId()}}" th:text="${person.getName()}">user</a>     -->
+  <!--<a th:href="@{/people/{id}(id=${person.getId()})}"  th:text="${person.getName() +', '+ person.getAge()}">user</a>-->
+    <a th:href="@{/people/{id}(id=${person.getId()})}"
+       th:text="${person.getFullName() +', '+ person.getYearOfBirth()}">user</a>
+  <!--tag a может отправлять ТОЛЬКО GET запрос -->
+
 </div>
 
 <br/><!--Создаёт пустую строку-->

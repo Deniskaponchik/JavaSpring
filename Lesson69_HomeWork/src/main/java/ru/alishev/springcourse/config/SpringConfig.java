@@ -33,8 +33,8 @@ import java.util.Properties;
 @EnableWebMvc
 public class SpringConfig implements WebMvcConfigurer {
     private final ApplicationContext applicationContext;
-    //import org.springframework.core.env.Environment;
-    private final Environment env;  //Получаем доступ к значениям конфигурационного файла hibernate.properties
+    private final Environment env;  //import org.springframework.core.env.Environment;
+    //Получаем доступ к значениям конфигурационного файла hibernate.properties
     @Autowired
     public SpringConfig(ApplicationContext applicationContext, Environment env) {
         this.applicationContext = applicationContext;
@@ -50,6 +50,7 @@ public class SpringConfig implements WebMvcConfigurer {
         templateResolver.setApplicationContext(applicationContext);
         templateResolver.setPrefix("/WEB-INF/views/");  //шаблоны=представления
         templateResolver.setSuffix(".html");            //расширение шаблонов=представлений
+        templateResolver.setCharacterEncoding("UTF-8"); //russian language
         return templateResolver;
     }
     @Bean
@@ -63,6 +64,7 @@ public class SpringConfig implements WebMvcConfigurer {
     public void configureViewResolvers(ViewResolverRegistry registry) {
         ThymeleafViewResolver resolver = new ThymeleafViewResolver();
         resolver.setTemplateEngine(templateEngine());
+        resolver.setCharacterEncoding("UTF-8");  //russian language
         registry.viewResolver(resolver);
     }
 

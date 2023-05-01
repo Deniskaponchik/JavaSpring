@@ -15,5 +15,12 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/58_hibernate</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="69_JPA@localhost" uuid="cb03585e-26f8-43a7-85a8-855350772b0f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/69_JPA</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
