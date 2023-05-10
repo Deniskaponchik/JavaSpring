@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+Hello world
+
+<br/>
+<!--если работает csrf, то можем разлогиниться только с помощью POST-запроса-->
+<form th:action="@{/logout}" th:method="POST">
+    <input type="submit" value="logout"/>
+    <!--Здесь уже есть скрытый csrf-token. Не даёт нажать эту кнопку НИКОМУ, кроме нас-->
+</form>
+<!--<a href="/logout">Logout</a>-->
+
+</body>
+</html>

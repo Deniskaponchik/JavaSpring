@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.alishev.springcourse</groupId>
-	<artifactId>FirstSecurityApp</artifactId>
+	<artifactId>BasicAuthentication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>FirstSecurityApp</name>
 	<description>First Spring Boot App with Security</description>

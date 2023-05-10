@@ -12,6 +12,7 @@ import java.util.Collections;
 
 @Component //чтобы могли внедрять аннотоцией Autowired
 public class AuthProviderImp implements AuthenticationProvider {//Будем смотреть в БД и сравнивать пароль, который был введён с формы с табличным
+    //в БАЗОВОЙ Spring Authentication данный класс НЕ ИСПОЛЬЗУЕТСЯ. Только для сложных Spring Приложений с CAS (пароли хранятся на удалённом сервере)
 
     private final PersonDetailsService personDetailsService;
 
