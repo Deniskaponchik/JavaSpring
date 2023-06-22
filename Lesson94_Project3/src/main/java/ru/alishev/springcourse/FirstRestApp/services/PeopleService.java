@@ -5,7 +5,6 @@ import org.springframework.transaction.annotation.Transactional;
 import ru.alishev.springcourse.FirstRestApp.models.Person;
 import ru.alishev.springcourse.FirstRestApp.repositories.PeopleRepository;
 import ru.alishev.springcourse.FirstRestApp.util.PersonNotFoundException;
-
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;

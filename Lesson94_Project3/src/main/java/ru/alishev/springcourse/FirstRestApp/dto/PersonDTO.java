@@ -18,6 +18,8 @@ public class PersonDTO { //Описываем поля, которые буду�
     @NotEmpty(message="Email should not be empty")
     private String email;
 
+    //Конструктора в DTO не нужно
+
     public String getName() {
         return name;
     }

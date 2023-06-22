@@ -10,21 +10,28 @@ public class Measurement {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
 
     @Column(name="value")
-    @NotEmpty(message="Value should not be empty")
+    @NotNull //@NotEmpty ТОЛЬКО для String
     @Min(value=-100, message="Value should be greater than -100")
     @Max(value=100, message="Value should be smaller than 100")
-    private float value;
+    private Double value;
+    //исп. НЕ примитивные типы, потому что обёртка может хранить NULL. Примитив же сохранил бы 0.0 при NULL. сможет срабатывать @NotEmpty
 
     @Column(name="raining")
-    @NotEmpty(message="Raining should not be empty")
-    private boolean raining;
+    @NotNull //@NotEmpty ТОЛЬКО для String
+    //@AssertFalse //raining - must be false
+    //@AssertTrue  //raining - must be true
+    private Boolean raining;
+
+    @Column(name = "measurement_date_time")
+    @NotNull //@NotEmpty ТОЛЬКО для String
+    private LocalDateTime measurementDateTime;//в тбл timestamp
 
     @ManyToOne
-    @JoinColumn(name="sensor_id", referencedColumnName = "id")
-    //@JoinColumn(name="sensor_id")
+    //@JoinColumn(name="sensor_id", referencedColumnName = "id")
+    @JoinColumn(name="sensor", referencedColumnName="name")//name=поле в тек. тбл, ref name=поле в родительской зависимой тбл.
     private Sensor sensor;
 
     /*
@@ -37,11 +44,6 @@ public class Measurement {
     @Min(value=0, message="Age should be greater than zero")
     private int age;
 
-    @Column(name = "email")
-    @Email
-    @NotEmpty(message="Email should not be empty")
-    private String email;
-
     @Column(name="created_at")
     private LocalDateTime createdAt; //timestamp in DB
 
@@ -53,35 +55,37 @@ public class Measurement {
     private String createdWho;
      */
 
+    /* у Алишева нет Конструктора
     public Measurement() {}
-    public Measurement(float value, boolean raining) {//Sensor не используем в конструкторе для Измерений
+    public Measurement(Double value, Boolean raining) {//Sensor не используем в конструкторе для Измерений
         this.value = value;
         this.raining = raining;
-    }
-    /*
-    public Measurement(String name, int age) {
-        this.name = name;
-        this.age = age;
     }*/
 
-    // JACKSON РАБОТАЕТ С ГЕТТЕРАМИ И СЕТТЕРАМИ
-    public int getId() {
+    // JACKSON РАБОТАЕТ С ГЕТТЕРАМИ И СЕТТЕРАМИ. Без них не сможет переводить в JSON
+    public Integer getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
-    public float getValue() {
+    public Double getValue() {
         return value;
     }
-    public void setValue(float value) {
+    public void setValue(Double value) {
         this.value = value;
     }
-    public boolean isRaining() {
+    public Boolean isRaining() {
         return raining;
     }
-    public void setRaining(boolean raining) {
+    public void setRaining(Boolean raining) {
         this.raining = raining;
+    }
+    public LocalDateTime getMeasurementDateTime() {
+        return measurementDateTime;
+    }
+    public void setMeasurementDateTime(LocalDateTime measurementDateTime) {
+        this.measurementDateTime = measurementDateTime;
     }
     public Sensor getSensor() {
         return sensor;

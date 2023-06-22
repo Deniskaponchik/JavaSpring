@@ -4,24 +4,30 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
+
+import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
 @Table(name = "Sensor")
-public class Sensor {
+public class Sensor  implements Serializable{//сериализуем, потому что работаем не с числовыми ключами. обращаемся по name, а не id
+    //Особенность Hibername. Если работаем НЕ с числовыми ключами, то нужно указать implements Serializable
+
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
 
     @Column(name = "name")
-    @NotEmpty(message="Name should not be empty")
+    @NotEmpty(message="Name should not be empty") //@NotEmpty только для String
     @Size(min=2, max=30, message="Name should be between 2 and 30 characters")
     private String name;
 
+    /* у Алишева нет такой аннотации
     @OneToMany(mappedBy = "sensor")
     private List<Measurement> measurements;
+    */
 
     /*
     @Column(name = "age")
@@ -43,17 +49,19 @@ public class Sensor {
     @NotEmpty
     private String createdWho;
     */
+
+    /*у Алишева НЕТ конструктора
     public Sensor() {    }
     public Sensor(String name) {
         this.name = name;
         //this.age = age;
-    }
+    } */
 
-    // JACKSON РАБОТАЕТ С ГЕТТЕРАМИ И СЕТТЕРАМИ
-    public int getId() {
+    // JACKSON РАБОТАЕТ С ГЕТТЕРАМИ И СЕТТЕРАМИ. Если их не будет, т не сможет переводить в JSON
+    public Integer getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
     public String getName() {
@@ -62,12 +70,10 @@ public class Sensor {
     public void setName(String name) {
         this.name = name;
     }
-    public List<Measurement> getMeasurements() {
-        return measurements;
-    }
-    public void setMeasurements(List<Measurement> measurements) {
-        this.measurements = measurements;
-    }
+    /* у Алишева нет
+    public List<Measurement> getMeasurements() {        return measurements;    }
+    public void setMeasurements(List<Measurement> measurements) {        this.measurements = measurements;    }
+    */
 
     /*
     public int getAge() {

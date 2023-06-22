@@ -31,6 +31,7 @@ public class PeopleController {
         this.modelMapper = modelMapper;
     }
 
+
     /*@ResponseBody над каждым методом уже прописан
     @GetMapping()
     public List<Person> getPeople() {
